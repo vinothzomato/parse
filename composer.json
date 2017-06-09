@@ -1,15 +1,15 @@
 {
-    "name":"psecio/parse",
+    "name":"zomato/parse",
     "type":"library",
-    "description":"A PHP Security Scanner",
+    "description":"A PHP Security Scanner for Zomato",
     "keywords":["security","scanner","static"],
-    "homepage":"https://github.com/psecio/parse.git",
+    "homepage":"https://github.com/vinothzomato/parse",
     "license":"MIT",
     "authors":[
         {
-            "name":"Chris Cornutt",
-            "email":"ccornutt@phpdeveloper.org",
-            "homepage":"http://www.phpdeveloper.org/"
+            "name":"Vinoth Kumar",
+            "email":"vinoth.kumar@zomato.com",
+            "homepage":"http://www.zomato.com"
         }
     ],
     "require":{
@@ -38,7 +38,7 @@
         "bin-dir": "bin"
     },
     "bin": [
-        "bin/psecio-parse",
+        "bin/zomato-parse",
         "bin/parse"
     ]
 }
