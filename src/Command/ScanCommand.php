@@ -86,7 +86,7 @@ class ScanCommand extends Command
                 'Skip all annotation-based rule toggles.'
             )
             ->setHelp(
-                "Scan paths for possible security issues:\n\n  <info>psecio-parse %command.name% /path/to/src</info>\n"
+                "Scan paths for possible security issues:\n\n  <info>zomato-parse %command.name% /path/to/src</info>\n"
             );
     }
 

@@ -163,7 +163,7 @@ class ConsoleReport extends Subscriber
                 $issueEvent->getRule()->getDescription(),
                 implode("\n> ", $issueEvent->getFile()->fetchNode($issueEvent->getNode()))
             );
-            $str .= "For more information execute 'psecio-parse rules {$issueEvent->getRule()->getName()}'\n\n";
+            $str .= "For more information execute 'zomato-parse rules {$issueEvent->getRule()->getName()}'\n\n";
         }
 
         return $str;

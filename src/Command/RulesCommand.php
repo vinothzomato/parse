@@ -30,7 +30,7 @@ class RulesCommand extends Command
                 'Display info about rule'
             )
             ->setHelp(
-                "Display info about rules:\n\n  <info>psecio-parse %command.name% [name-of-rule]</info>\n"
+                "Display info about rules:\n\n  <info>zomato-parse %command.name% [name-of-rule]</info>\n"
             );
     }
 
@@ -76,7 +76,7 @@ class RulesCommand extends Command
         }
 
         $table->render();
-        $output->writeln("\n <info>Use 'psecio-parse rules name-of-rule' for more info about a specific rule</info>");
+        $output->writeln("\n <info>Use 'zomato-parse rules name-of-rule' for more info about a specific rule</info>");
     }
 
     /**
